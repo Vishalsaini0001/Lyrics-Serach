@@ -61,6 +61,8 @@
     position: relative;
     width: 500px;
     max-width: 100%;
+   
+    
   }
   
   form input {
@@ -69,6 +71,7 @@
     font-size: 16px;
     padding: 15px 30px;
     width: 100%;
+    
   }
   
   form button {
@@ -107,6 +110,7 @@
     margin: 30px auto;
     max-width: 100%;
     width: 500px;
+    padding: 20px;
   }
   
   .container h2 {
@@ -133,6 +137,7 @@
     position: relative;
     display: inline-block;
     font-size: 40px;
+    font-weight: 600;
     color: #fff;
     animation: flip 5s infinite;
     animation-delay: calc(.2s * var(--i))
@@ -142,3 +147,20 @@
       transform: rotateY(360deg) 
     }
   }
+ 
+
+
+  @media only screen and (max-width: 520px) {
+    form {
+       width: 420px; 
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    form {
+       width: 350px; 
+    }
+  }
+
+ul{
+  padding: 10px;
+}

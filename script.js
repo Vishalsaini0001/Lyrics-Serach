@@ -16,7 +16,7 @@ async function searchSongs(term) {
 // Show song and artist in DOM
 function showData(data) {
   result.innerHTML = `
-    <ul class="songs">
+    <ul class="songs" style="padding: 10px">
       ${data.data
         .map(
           song => `<li>
