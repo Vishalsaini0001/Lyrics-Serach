@@ -149,6 +149,17 @@
   }
  
 
+  @media only screen and (max-width: 520px) {
+    form {
+       width: 420px; 
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    form {
+       width: 350px; 
+    }
+  }
+
 
 ul{
   padding: 10px;
