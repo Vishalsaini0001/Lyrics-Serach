@@ -65,14 +65,6 @@
     
   }
   
-  form input {
-    border: 0;
-    border-radius: 50px;
-    font-size: 16px;
-    padding: 11px 30px;
-    width: 100%;
-    
-  }
   
   form button {
     position: absolute;
