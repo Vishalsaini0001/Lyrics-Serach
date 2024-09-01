@@ -49,14 +49,7 @@
     
   }
   
-  header * {
-    z-index: 1;
-  }
-  
-  header h1 {
-    margin: 0 0 30px;
-  }
-  
+ 
   form {
     position: relative;
     width: 500px;
