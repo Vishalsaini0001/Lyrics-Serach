@@ -117,7 +117,9 @@
     font-weight: 300;
   }
   
-
+  .container p {
+    text-align: center;
+  }
   
   .centered {
     display: flex;
